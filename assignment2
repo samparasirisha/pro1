@@ -1,0 +1,16 @@
+
+#include <stdio.h>
+void PrintReverseOrder(int N)
+{
+    for (int i = N; i >0; i--)
+        printf("\n%d",i);
+}
+int main()
+{
+    int N;
+    printf("\nEnter any number:");
+    scanf("%d",&N);
+    printf("Printing numbers from %d to 1:",N);
+     PrintReverseOrder(N);
+    return 0;
+}
